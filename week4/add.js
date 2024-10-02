@@ -12,9 +12,9 @@ function driehoek(lengte, hoogte) {
     return Math.sqrt(Math.pow(lengte, 2) + Math.pow(hoogte, 2));
 }
 
-function gemiddeldeBerekenen(getallen) {
-    let som = getallen.reduce((acc, curr) => acc + curr, 0);
-    return som / getallen.length;
+function gemiddeld(getal1, getal2, getal3, getal4, getal5, getal6, getal7) {
+    let totaal = getal1 + getal2 + getal3 + getal4 + getal5 + getal6 + getal7;
+    return totaal /7;
 }
 
 
@@ -30,5 +30,5 @@ console.log(cylinder);
 let langeZijde = driehoek(5, 4);
 console.log(langeZijde);
 
-let gemiddelde = gemiddeldeBerekenen([100, 200, 300, 400, 500, 600, 700]);
-console.log(gemiddelde);
+let yippee = gemiddeld(4, 5, 3, 2, 8, 5, 9);
+console.log(yippee);
